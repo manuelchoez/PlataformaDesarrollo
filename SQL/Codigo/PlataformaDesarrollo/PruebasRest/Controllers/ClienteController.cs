@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Serilog;
 namespace PruebasRest.Controllers
 {
     [Route("api/cliente")]
@@ -14,11 +14,12 @@ namespace PruebasRest.Controllers
     {
         private readonly ICliente _cliente;
         private readonly ICredito _credito;
-
-        public ClienteController(ICliente cliente, ICredito credito)
+        private readonly ILogger _logger;
+        public ClienteController(ICliente cliente, ICredito credito, ILogger logger)
         {
             _cliente = cliente;
             _credito = credito;
+            _logger = logger;
         }
 
         [HttpPost]
@@ -27,6 +28,7 @@ namespace PruebasRest.Controllers
         {
             var objClientes = _cliente.ConsultarCliente();
             var objCredito = _credito.ConsultarCreditos();
+            _logger.Warning("Esto es una prueba");
             return StatusCode(200, objClientes);
         }
 

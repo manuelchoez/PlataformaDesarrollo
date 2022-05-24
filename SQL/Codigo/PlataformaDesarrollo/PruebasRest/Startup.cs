@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using PlataformaDesarrollo.Datos;
 using PruebasRest.Data;
 using PruebasRest.Interfaces;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,7 @@ namespace PruebasRest
         public void ConfigureServices(IServiceCollection services)
         {
             ContenedorComun.RegistrarServicios(services);
+            services.AddSingleton(Log.Logger);
             services.AddCors();
             services.AddControllers();
             services.AddScoped<ICliente, ClienteRepository>();
