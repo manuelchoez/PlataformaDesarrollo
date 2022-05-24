@@ -1,0 +1,5 @@
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\Pruebas\obj\Debug\net5.0\Pruebas.csproj.AssemblyReference.cache
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\Pruebas\obj\Debug\net5.0\Pruebas.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\Pruebas\obj\Debug\net5.0\Pruebas.AssemblyInfoInputs.cache
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\Pruebas\obj\Debug\net5.0\Pruebas.AssemblyInfo.cs
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\Pruebas\obj\Debug\net5.0\Pruebas.csproj.CoreCompileInputs.cache

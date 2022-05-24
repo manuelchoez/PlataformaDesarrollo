@@ -36,6 +36,7 @@ namespace PlataformaDesarrollo.Datos
                 constructorcadena.Password = Encriptador.Desencriptar(conexion.Clave);
             }
             constructorcadena.MultipleActiveResultSets = true;
+            constructorcadena.TrustServerCertificate = true;
             return constructorcadena.ConnectionString;
         }
     }

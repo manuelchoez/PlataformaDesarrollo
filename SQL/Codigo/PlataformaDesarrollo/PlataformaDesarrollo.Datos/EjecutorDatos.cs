@@ -1,8 +1,11 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Dapper;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using PlataformaDesarrollo.Datos.Interfaces;
 using PlataformaDesarrollo.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +21,7 @@ namespace PlataformaDesarrollo.Datos
         private object _lock = new object();
         private SqlParametrosDapper[] parametrosSalida;
         private int timeOut;
-
+        private int numeroParametrosOut;
         public int TimeOut
         {
             get
@@ -85,9 +88,72 @@ namespace PlataformaDesarrollo.Datos
             }
         }
 
+        private DynamicParameters AgregarParametrosConexion(SqlParametrosDapper[] parametros)
+        {
+            try
+            {
+                DynamicParameters dynamicParameters = new DynamicParameters();
+                if (parametros != null)
+                {
+                    foreach (SqlParametrosDapper parametro in parametros)
+                    {
+                        if (parametro.IsTypeTable)
+                        {
+                            dynamicParameters.Add(parametro.Name, ((DataTable)parametro.Value).AsTableValuedParameter());
+                        }
+                        else
+                        {
+                            if (parametro.Type == DbType.Decimal)
+                            {
+                                parametro.Precision = 28;
+                                parametro.Scale = 4;                                
+                            }
+                            dynamicParameters.Add(parametro.Name, parametro.Value, dbType: parametro.Type,
+                                direction: parametro.Direction, size: parametro.Size,
+                                precision: parametro.Precision, scale: parametro.Scale);
+
+                            if (parametro.Direction == ParameterDirection.Output)
+                            {
+                                numeroParametrosOut++;
+                            }
+                            else if (parametro.Direction == ParameterDirection.ReturnValue)
+                            {
+                                parametro.Value = -999;
+                            }
+                        }
+                    }
+                }
+                return dynamicParameters;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public EjecutorDatos(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         public IEnumerable<T> ExecuteDataSet<T>(ParametrosEjecucion parametrosEjecucion)
         {
-            throw new NotImplementedException();
+            IEnumerable<T> listaRetorno;
+            try
+            {
+                using (IDbConnection conexion = new SqlConnection(cadenaConexion))
+                {
+                    DynamicParameters parametros = new DynamicParameters();
+                    parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
+                    listaRetorno = conexion.Query<T>(parametrosEjecucion.NombreProcedimiento, parametros, commandTimeout: timeOut, commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return listaRetorno;
         }
 
         public Task<IEnumerable<T>> ExecuteDataSetAsync<T>(ParametrosEjecucion parametrosEjecucion)
