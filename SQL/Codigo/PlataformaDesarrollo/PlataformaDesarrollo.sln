@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebasRest", "PruebasRest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlataformaDesarrollo.Logging", "PlataformaDesarrollo.Log\PlataformaDesarrollo.Logging.csproj", "{E8166004-3D62-48C8-8F2F-8156675A65F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlataformaDesarrollo.Cache", "PlataformaDesarrollo.Cache\PlataformaDesarrollo.Cache.csproj", "{0CA3A19E-DAFB-450B-81FA-66EEA6E95D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E8166004-3D62-48C8-8F2F-8156675A65F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8166004-3D62-48C8-8F2F-8156675A65F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8166004-3D62-48C8-8F2F-8156675A65F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA3A19E-DAFB-450B-81FA-66EEA6E95D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA3A19E-DAFB-450B-81FA-66EEA6E95D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA3A19E-DAFB-450B-81FA-66EEA6E95D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA3A19E-DAFB-450B-81FA-66EEA6E95D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
