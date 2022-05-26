@@ -156,29 +156,96 @@ namespace PlataformaDesarrollo.Datos
             return listaRetorno;
         }
 
-        public Task<IEnumerable<T>> ExecuteDataSetAsync<T>(ParametrosEjecucion parametrosEjecucion)
+        public async Task<IEnumerable<T>> ExecuteDataSetAsync<T>(ParametrosEjecucion parametrosEjecucion)
         {
-            throw new NotImplementedException();
+            IEnumerable<T> listaRetorno;
+            try
+            {
+                using (IDbConnection conexion = new SqlConnection())
+                {
+                    DynamicParameters parametros = new DynamicParameters();
+                    parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
+                    listaRetorno = await conexion.QueryAsync<T>(parametrosEjecucion.NombreProcedimiento, parametros, commandTimeout: timeOut, commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return listaRetorno;
         }
 
         public int ExecuteNonQuery(ParametrosEjecucion parametrosEjecucion)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection conexion = new SqlConnection())
+                {
+                    DynamicParameters parametros = new DynamicParameters();
+                    parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
+                    return conexion.QuerySingle<int>(parametrosEjecucion.NombreProcedimiento, parametros, commandTimeout: timeOut, commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
-        public Task<int> ExecuteNonQueryAsync(ParametrosEjecucion parametrosEjecucion)
+        public async Task<int> ExecuteNonQueryAsync(ParametrosEjecucion parametrosEjecucion)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection conexion = new SqlConnection())
+                {
+                    DynamicParameters parametros = new DynamicParameters();
+                    parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
+                    return await conexion.QuerySingleAsync<int>(parametrosEjecucion.NombreProcedimiento, parametros, commandTimeout: timeOut, commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public T ExecuteScalar<T>(ParametrosEjecucion parametrosEjecucion)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection conexion = new SqlConnection())
+                {
+                    DynamicParameters parametros = new DynamicParameters();
+                    parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
+                    return conexion.ExecuteScalar<T>(parametrosEjecucion.NombreProcedimiento, parametros, commandTimeout: timeOut, commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
-        public Task<T> ExecuteScalarAsync<T>(ParametrosEjecucion parametrosEjecucion)
+        public async Task<T> ExecuteScalarAsync<T>(ParametrosEjecucion parametrosEjecucion)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection conexion = new SqlConnection())
+                {
+                    DynamicParameters parametros = new DynamicParameters();
+                    parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
+                    return await conexion.ExecuteScalarAsync<T>(parametrosEjecucion.NombreProcedimiento, parametros, commandTimeout: timeOut, commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
