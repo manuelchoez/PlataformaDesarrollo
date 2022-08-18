@@ -1,6 +1,5 @@
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.deps.json
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.dll
-E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\bin\Debug\net5.0\ref\PlataformaDesarrollo.Servicio.dll
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.pdb
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\PlataformaDesarrollo.Servicio.csproj.AssemblyReference.cache
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\PlataformaDesarrollo.Servicio.GeneratedMSBuildEditorConfig.editorconfig
@@ -8,5 +7,6 @@ E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\PlataformaDesarrollo.Servicio.AssemblyInfo.cs
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\PlataformaDesarrollo.Servicio.csproj.CoreCompileInputs.cache
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\PlataformaDesarrollo.Servicio.dll
-E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\ref\PlataformaDesarrollo.Servicio.dll
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\refint\PlataformaDesarrollo.Servicio.dll
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\PlataformaDesarrollo.Servicio.pdb
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PlataformaDesarrollo.Servicio\obj\Debug\net5.0\ref\PlataformaDesarrollo.Servicio.dll

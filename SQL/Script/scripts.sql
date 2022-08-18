@@ -52,9 +52,9 @@ select * from Infraestructura.dbo.log
 select * from Credito.dbo.log
 
 select * from Log.dbo.LogPlataforma
-
-drop table Log
-drop table LogPlataforma
+--truncate table  Log.dbo.LogPlataforma
+--drop table Log
+--drop table LogPlataforma
 CREATE TABLE [dbo].[LogPlataforma](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Message] [nvarchar](max) NULL,

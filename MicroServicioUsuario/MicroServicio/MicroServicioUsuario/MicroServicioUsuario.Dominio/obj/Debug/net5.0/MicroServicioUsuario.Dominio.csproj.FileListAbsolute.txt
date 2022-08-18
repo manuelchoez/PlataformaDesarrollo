@@ -1,0 +1,12 @@
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\bin\Debug\net5.0\MicroServicioUsuario.Dominio.deps.json
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\bin\Debug\net5.0\MicroServicioUsuario.Dominio.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\bin\Debug\net5.0\MicroServicioUsuario.Dominio.pdb
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.csproj.AssemblyReference.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.AssemblyInfoInputs.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.AssemblyInfo.cs
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.csproj.CoreCompileInputs.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\refint\MicroServicioUsuario.Dominio.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\MicroServicioUsuario.Dominio.pdb
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Dominio\obj\Debug\net5.0\ref\MicroServicioUsuario.Dominio.dll

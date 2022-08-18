@@ -5,7 +5,6 @@ E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\Prueb
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\PruebasRest.runtimeconfig.json
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\PruebasRest.runtimeconfig.dev.json
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\PruebasRest.dll
-E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\ref\PruebasRest.dll
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\PruebasRest.pdb
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\Azure.Core.dll
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\Azure.Identity.dll
@@ -51,7 +50,6 @@ E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\Prueb
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\PruebasRest.MvcApplicationPartsAssemblyInfo.cs
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\PruebasRest.MvcApplicationPartsAssemblyInfo.cache
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\staticwebassets\PruebasRest.StaticWebAssets.Manifest.cache
-E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\staticwebassets\PruebasRest.StaticWebAssets.xml
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\scopedcss\bundle\PruebasRest.styles.css
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\PruebasRest.RazorTargetAssemblyInfo.cache
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\PruebasRest.csproj.CopyComplete
@@ -87,3 +85,4 @@ E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\Syste
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\PlataformaDesarrollo.Cache.dll
 E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\bin\Debug\net5.0\PlataformaDesarrollo.Cache.pdb
+E:\Tesis Jair\SQL\Codigo\PlataformaDesarrollo\PruebasRest\obj\Debug\net5.0\refint\PruebasRest.dll

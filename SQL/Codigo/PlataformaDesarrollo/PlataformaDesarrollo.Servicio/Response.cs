@@ -9,8 +9,8 @@ namespace PlataformaDesarrollo.Servicio
 {
     public class Response<TResponse>
     {
-        public HttpStatusCode Status { get; set; }
-        public bool EsError { get; set; }
+        public HttpStatusCode Status { get; }
+        public bool EsError { get; }
         public TResponse Result { get; set; }
         public object Mensaje { get; set; }
         public Response(TResponse response, object mensaje)
@@ -20,7 +20,6 @@ namespace PlataformaDesarrollo.Servicio
             Mensaje = mensaje;
             Status = HttpStatusCode.OK;
         }
-
         protected Response(Exception errors)
         {
             Mensaje = errors.Message;
@@ -32,7 +31,7 @@ namespace PlataformaDesarrollo.Servicio
         {
             Mensaje = mensajeControlado;
             EsError = false;
-            Status = HttpStatusCode.OK;     
+            Status = HttpStatusCode.OK;
         }
 
         public static Response<TResponse> Error(Exception error)
@@ -40,11 +39,12 @@ namespace PlataformaDesarrollo.Servicio
             return new Response<TResponse>(error);
         }
 
-        public static Response<TResponse> OK(TResponse response, object mensaje)
+        public static Response<TResponse> Ok(TResponse response, object mensaje)
         {
-            return new Response<TResponse>(response, response);
+            return new Response<TResponse>(response, mensaje);
         }
-        public static Response<TResponse> Warnig(object mensajeControlado)
+
+        public static Response<TResponse> Warning(object mensajeControlado)
         {
             return new Response<TResponse>(mensajeControlado);
         }

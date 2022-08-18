@@ -1,0 +1,15 @@
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Repository.deps.json
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Repository.runtimeconfig.json
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Repository.runtimeconfig.dev.json
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Repository.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Repository.pdb
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.csproj.AssemblyReference.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.AssemblyInfoInputs.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.AssemblyInfo.cs
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.csproj.CoreCompileInputs.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\refint\MicroServicioUsuario.Repository.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.pdb
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Repository.genruntimeconfig.cache
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\ref\MicroServicioUsuario.Repository.dll
