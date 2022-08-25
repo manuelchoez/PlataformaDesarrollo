@@ -24,8 +24,9 @@ namespace MicroServicioUsuario.Infraestructure.Data
 
         public async Task<Usuario> ObtenerUsuario(Usuario usuario)
         {
-            _ejecutorDatos.CadenaConexion = Constantes.CadenaConexionSeguridad;
             _ejecutorDatos.Modulo = Constantes.ModuloSeguridad;
+            _ejecutorDatos.CadenaConexion = Constantes.CadenaConexionSeguridad;
+            
             ParametrosEjecucion parametrosEjecucion = new ParametrosEjecucion
             {
                 NombreProcedimiento = Constantes.pConsultaUsuario,
@@ -35,8 +36,8 @@ namespace MicroServicioUsuario.Infraestructure.Data
                             new SqlParametrosDapper("@Contrasenia",System.Data.DbType.String, 20, usuario.Contrasenia)                           
                 }
             };
-            Usuario resultado = await _ejecutorDatos.ExecuteScalarAsync<Usuario>(parametrosEjecucion);
-            return  resultado;
+            IEnumerable<Usuario> resultado = await _ejecutorDatos.ExecuteDataSetAsync<Usuario>(parametrosEjecucion) ;
+            return  resultado.First();
         }
     }
 }

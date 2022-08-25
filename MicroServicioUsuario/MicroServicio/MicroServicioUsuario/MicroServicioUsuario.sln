@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicioUsuario.Application", "MicroServicioUsuario.Application\MicroServicioUsuario.Application.csproj", "{57BB07C2-0411-44F9-B6D0-55AF54A9E433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicioUsuario.Application", "MicroServicioUsuario.Application\MicroServicioUsuario.Application.csproj", "{57BB07C2-0411-44F9-B6D0-55AF54A9E433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicioUsuario.Dominio", "MicroServicioUsuario.Dominio\MicroServicioUsuario.Dominio.csproj", "{D297099C-47D5-49DA-9E12-71E54DD76484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicioUsuario.Dominio", "MicroServicioUsuario.Dominio\MicroServicioUsuario.Dominio.csproj", "{D297099C-47D5-49DA-9E12-71E54DD76484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicioUsuario.Infraestructure", "MicroServicioUsuario.Repository\MicroServicioUsuario.Infraestructure.csproj", "{09760739-D23A-4DB2-8B21-6279B56EC563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicioUsuario.Infraestructure", "MicroServicioUsuario.Repository\MicroServicioUsuario.Infraestructure.csproj", "{09760739-D23A-4DB2-8B21-6279B56EC563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServicioUsuario.API", "MicroServicioUsuario.API\MicroServicioUsuario.API.csproj", "{25AC1158-D516-47DA-A3EB-8349DFC2631A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServicioUsuario.API", "MicroServicioUsuario.API\MicroServicioUsuario.API.csproj", "{25AC1158-D516-47DA-A3EB-8349DFC2631A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,6 +5,10 @@ E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServi
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Infraestructure.pdb
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Application.dll
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Dominio.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Datos.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Entidades.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Logging.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.dll
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Application.pdb
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\MicroServicioUsuario.Dominio.pdb
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Infraestructure.csproj.AssemblyReference.cache
@@ -18,7 +22,3 @@ E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServi
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Infraestructure.pdb
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\MicroServicioUsuario.Infraestructure.genruntimeconfig.cache
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\obj\Debug\net5.0\ref\MicroServicioUsuario.Infraestructure.dll
-E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Datos.dll
-E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Logging.dll
-E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.dll
-E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Entidades.dll

@@ -70,9 +70,9 @@ namespace PlataformaDesarrollo.Datos
                     }
                 }
 
-                Conexion cadena = ProveedorCadenaConexion.ObtenerCadenaConexion(modulo, _dictCadenaConexion[value]);               
-                cadenaConexion = ProveedorCadenaConexion.ConstruirConfiguracionCadena(cadena); 
+                Conexion cadena = ProveedorCadenaConexion.ObtenerCadenaConexion(modulo, _dictCadenaConexion[value]);                               
                 timeOut = int.Parse(_dictCadenaConexion[ConstantesEjecutorDatos.TimeOut]);
+                cadenaConexion = ProveedorCadenaConexion.ConstruirConfiguracionCadena(cadena);
             } 
         }
 
@@ -161,7 +161,7 @@ namespace PlataformaDesarrollo.Datos
             IEnumerable<T> listaRetorno;
             try
             {
-                using (IDbConnection conexion = new SqlConnection())
+                using (IDbConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     DynamicParameters parametros = new DynamicParameters();
                     parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
@@ -180,7 +180,7 @@ namespace PlataformaDesarrollo.Datos
         {
             try
             {
-                using (IDbConnection conexion = new SqlConnection())
+                using (IDbConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     DynamicParameters parametros = new DynamicParameters();
                     parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
@@ -198,7 +198,7 @@ namespace PlataformaDesarrollo.Datos
         {
             try
             {
-                using (IDbConnection conexion = new SqlConnection())
+                using (IDbConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     DynamicParameters parametros = new DynamicParameters();
                     parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
@@ -216,7 +216,7 @@ namespace PlataformaDesarrollo.Datos
         {
             try
             {
-                using (IDbConnection conexion = new SqlConnection())
+                using (IDbConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     DynamicParameters parametros = new DynamicParameters();
                     parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
@@ -234,7 +234,7 @@ namespace PlataformaDesarrollo.Datos
         {
             try
             {
-                using (IDbConnection conexion = new SqlConnection())
+                using (IDbConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     DynamicParameters parametros = new DynamicParameters();
                     parametros = AgregarParametrosConexion(parametrosEjecucion.DapperParametros);
