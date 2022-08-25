@@ -11,6 +11,7 @@
           "MicroServicioUsuario.Dominio": "1.0.0",
           "Serilog.AspNetCore": "4.1.0",
           "PlataformaDesarrollo.Cache": "1.0.0.0",
+          "PlataformaDesarrollo.Entidades": "1.0.0.0",
           "PlataformaDesarrollo.Servicio": "1.0.0.0"
         },
         "runtime": {
@@ -621,6 +622,14 @@
           }
         }
       },
+      "PlataformaDesarrollo.Entidades/1.0.0.0": {
+        "runtime": {
+          "PlataformaDesarrollo.Entidades.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "PlataformaDesarrollo.Servicio/1.0.0.0": {
         "runtime": {
           "PlataformaDesarrollo.Servicio.dll": {
@@ -1091,6 +1100,11 @@
       "sha512": ""
     },
     "PlataformaDesarrollo.Cache/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlataformaDesarrollo.Entidades/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

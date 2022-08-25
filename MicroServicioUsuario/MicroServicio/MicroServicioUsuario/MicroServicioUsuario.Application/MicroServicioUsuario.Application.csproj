@@ -16,6 +16,9 @@
     <Reference Include="PlataformaDesarrollo.Cache">
       <HintPath>..\..\Compilados\Comun\PlataformaDesarrollo.Cache.dll</HintPath>
     </Reference>
+    <Reference Include="PlataformaDesarrollo.Entidades">
+      <HintPath>..\..\Compilados\Servidor\PlataformaDesarrollo.Entidades.dll</HintPath>
+    </Reference>
     <Reference Include="PlataformaDesarrollo.Servicio">
       <HintPath>..\..\Compilados\Comun\PlataformaDesarrollo.Servicio.dll</HintPath>
     </Reference>

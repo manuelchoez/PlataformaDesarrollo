@@ -14,13 +14,11 @@ using System.Threading.Tasks;
 namespace MicroServicioUsuario.Infraestructure.Data
 {
     public class UsuarioRepository : IUsuarioRepository
-    {
-        private readonly SeguridadContext _contexto;
+    {        
         private readonly IEjecutorDatos _ejecutorDatos;
 
-        public UsuarioRepository(SeguridadContext contexto, IEjecutorDatos ejecutorDatos)
-        {
-            _contexto = contexto;
+        public UsuarioRepository(IEjecutorDatos ejecutorDatos)
+        {            
             _ejecutorDatos = ejecutorDatos;
         }
 

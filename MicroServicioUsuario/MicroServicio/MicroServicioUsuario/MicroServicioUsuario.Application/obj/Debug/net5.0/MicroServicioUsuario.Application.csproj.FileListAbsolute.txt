@@ -15,3 +15,4 @@ E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServi
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Application\obj\Debug\net5.0\MicroServicioUsuario.Application.csproj.CopyComplete
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Application\bin\Debug\net5.0\PlataformaDesarrollo.Cache.dll
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Application\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Application\bin\Debug\net5.0\PlataformaDesarrollo.Entidades.dll

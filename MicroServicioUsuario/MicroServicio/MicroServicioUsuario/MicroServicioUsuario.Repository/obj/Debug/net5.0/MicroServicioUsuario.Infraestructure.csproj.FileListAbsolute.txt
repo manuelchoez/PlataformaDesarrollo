@@ -21,3 +21,4 @@ E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServi
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Datos.dll
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Logging.dll
 E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Servicio.dll
+E:\Tesis Jair\MicroServicioUsuario\MicroServicio\MicroServicioUsuario\MicroServicioUsuario.Repository\bin\Debug\net5.0\PlataformaDesarrollo.Entidades.dll

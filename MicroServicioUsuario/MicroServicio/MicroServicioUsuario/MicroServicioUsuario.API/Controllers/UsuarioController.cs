@@ -19,7 +19,7 @@ namespace MicroServicioUsuario.API.Controllers
         }
 
         [HttpPost]
-        [Route("ConsultarColaboradorActivo")]       
+        [Route("ObtenerUsuario")]       
         public async Task<ActionResult> ObtenerUsuario(Usuario usuario)
         {
             Response<Usuario> usuarioRes = await usuarioService.ObtenerUsuario(usuario);
